@@ -7,9 +7,9 @@
   </head>
   <body id="page-top">
 
-    <h2>Username: <%= current_user(@session).username %>
+    <h2>Username: <%= Helpers.current_user(@session).username %>
     <h2>Your Balance:</h2>
-    <p><%= current_user(@session).balance %></p>
+    <p><%= Helpers.current_user(@session).balance %></p>
 
     <br>
     <a href="/logout">Log Out</a>
