@@ -7,7 +7,7 @@
   </head>
   <body id="page-top">
 
-    <h2>Username: <%= Helpers.current_user(@session).username %>
+    <h2>Welcome <%= Helpers.current_user(@session).username %>
     <h2>Your Balance:</h2>
     <p><%= Helpers.current_user(@session).balance %></p>
 
